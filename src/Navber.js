@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-class Navber extends React.Component {
-      render () {
+const Navber =(props)=> {
+      
         return (
-            <>
-            <h1>HIIIII</h1>
-            </>
+            <div id='Navber'>
+                <img src='https://cdn1.iconfinder.com/data/icons/free-98-icons/32/cart-512.png' alt=''/>
+                <div id='number'>{props.count}</div>
+            </div>
         )
       }
-    }
+    
     
 export default Navber;
